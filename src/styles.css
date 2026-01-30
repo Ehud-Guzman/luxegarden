@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: 16 185 129;
+  --ink: 15 23 42;
+}
+
+html { scroll-behavior: smooth; }
+::selection { background: rgba(16, 185, 129, 0.25); }
+a { text-underline-offset: 3px; }
